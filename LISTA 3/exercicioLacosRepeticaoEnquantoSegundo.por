@@ -4,15 +4,15 @@ programa
 	funcao inicio()
 	{
 		inteiro num, novoNum=0
-		escreva("Digite Numero")
+		escreva("Digite Numero: ")
 		leia(num)
-		limpa()
+		
 
-		escreva(num, "\n")
+		escreva(num + "\n")
 		enquanto(num<100){
 			novoNum=(num*3)
 			num=novoNum
-			escreva(novoNum, "\n")
+			escreva(novoNum + "\n")
 		}
 	}
 }
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 127; 
+ * @POSICAO-CURSOR = 150; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
