@@ -6,7 +6,6 @@ public class Animal {
 	private int idade;
 	private boolean emiteSom;
 	public Animal(String nome, int idade) {
-		// TODO Auto-generated constructor stub
 	}
 	public String getNome() {
 		return nome;
@@ -31,7 +30,6 @@ public class Animal {
 		System.out.println("correndo feito maluco...");
 	}
 	public void emitirSom() {
-		// TODO Auto-generated method stub
 		
 	}
 	

@@ -3,19 +3,19 @@ package entities;
 public class MacacoPrego extends Animal {
 	private boolean CapacidadePular;
 	
-	public MacacoPrego(String nome, int idade, boolean capacidadePular) {
+	public MacacoPrego(String nome, int idade, boolean capacidadepular) {
 		super(nome, idade);
-		this.CapacidadePular = capacidadePular;
+		this.CapacidadePular = capacidadepular;
 		
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public boolean isCapacidadePular() {
 		return CapacidadePular;
 	}
 
-	public void setCapacidadePular(boolean capacidadePular) {
-		CapacidadePular = capacidadePular;
+	public void setCapacidadePular(boolean capacidadepular) {
+		CapacidadePular = capacidadepular;
 	} 	
 	public void somFolhas() {
 		System.out.println("barulho de folhas sendo pisadas....");
@@ -23,7 +23,7 @@ public class MacacoPrego extends Animal {
 
 	@Override
 	public void correr() {
-		// TODO Auto-generated method stub
+		
 		System.out.println("Correndo em velocidade media...");
 	}
 	

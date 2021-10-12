@@ -163,7 +163,7 @@ public class Projeto {
 			// OPÇÕES DE PAGAMENTO
 			opcoesPagamento();
 			System.out.print("\nDigite a opção de pagamento :\n"
-					+ "1 - À VISTA|\t 2 - À VISTA CARTÃO (10% juros) |\t 2x NO CARTÃO (15% juros)");
+					+ "1 - À VISTA|\t 2 - À VISTA CARTÃO (10% juros) |\t 3 - 2x NO CARTÃO (15% juros)    ");
 			opcao = ler.nextInt();
 			System.out.print("\n");
 
@@ -171,7 +171,7 @@ public class Projeto {
 				System.out.println("Opção inválida, escolha novamente!");
 				opcoesPagamento();
 				System.out.print("\nDigite a opção de pagamento :\n "
-						+ "1 - À VISTA|\t 2 - À VISTA CARTÃO (10% juros) |\t 3 - 2x NO CARTÃO (15% juros)");
+						+ "1 - À VISTA|\t 2 - À VISTA CARTÃO (10% juros) |\t 3 - 2x NO CARTÃO (15% juros)    ");
 				opcao = ler.nextInt();
 			}
 			// OPÇÃO 1 - À VISTA

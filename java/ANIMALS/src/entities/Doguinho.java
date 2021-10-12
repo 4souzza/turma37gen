@@ -3,17 +3,17 @@ package entities;
 public class Doguinho extends Animal {
 	private boolean CapacidadeCorrer;
 
-	public Doguinho(String nome, int idade, boolean capacidadeCorrer) {
+	public Doguinho(String nome, int idade, boolean capacidadecorrer) {
 		super(nome, idade);
-		this.CapacidadeCorrer = capacidadeCorrer;
+		this.CapacidadeCorrer = capacidadecorrer;
 		
 	}
 	public boolean isCapacidadeCorrer() {
 		return CapacidadeCorrer;
 
 }
-	public void setCapacidadeCorrer(boolean capacidadeCorrer) {
-		this.CapacidadeCorrer = capacidadeCorrer;
+	public void setCapacidadeCorrer(boolean capacidadecorrer) {
+		this.CapacidadeCorrer = capacidadecorrer;
 }
 	@Override
 	public void correr() {
