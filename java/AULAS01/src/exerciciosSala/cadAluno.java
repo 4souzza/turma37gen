@@ -11,7 +11,7 @@ public class cadAluno {
 		
 		String nome[] = new String[4];
 		int nota[] = {0,0,0,0};
-		char disciplinaNota
+		char disciplinaNota;
 		String disciplina[]= {"MATEMATICA", "PORTUGUES","CIENCIAS", "ARTES"};
 		
 		

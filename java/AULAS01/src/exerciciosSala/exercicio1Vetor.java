@@ -1,7 +1,8 @@
 package exerciciosSala;
 
 import java.util.Locale;
-import java.util.Scanner;4
+
+import java.util.Scanner;
 
 public class exercicio1Vetor {
 

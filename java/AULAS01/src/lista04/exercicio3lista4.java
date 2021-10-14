@@ -34,3 +34,5 @@ public class exercicio3lista4 {
 				System.out.print(matrizB[linha][coluna]+ "\t");
 }
 }
+	}
+}
