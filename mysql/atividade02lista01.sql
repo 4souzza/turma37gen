@@ -21,7 +21,7 @@ INSERT INTO tb_produtos(nome,tipo,cor,preco) VALUES
 ("SUKATA","ÓCULOS","AMARELO",29.99),
 ("NOSSA","CINTO","ROSA",79.99);
 
-SELECT * FROM tb_produtos WHERE preco<500.00;
+SELECT * FROM tb_produtos WHERE preco<500.00;tb_funcionarios
 SELECT * FROM tb_produtos WHERE preco>500.00;
 
 USE db_ecommerce;
