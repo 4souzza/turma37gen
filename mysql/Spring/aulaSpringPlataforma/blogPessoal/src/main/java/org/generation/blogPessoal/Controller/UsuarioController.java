@@ -1,6 +1,7 @@
 package org.generation.blogPessoal.Controller;
 
 import java.util.List;
+
 import java.util.Optional;
 
 import javax.validation.Valid;
@@ -61,9 +62,12 @@ public class UsuarioController {
 	//return ResponseEntity.status(HttpStatus.CREATED).body(usuarioService.CadastrarUsuario(usuario));
 	//}
 	
+	
+	//Perguntar a Boaz a mudança para ResponseEntity
+	
 	@PostMapping("/cadastrar")
-	public ResponseEntity<Usuario> post(@RequestBody Usuario usuario) {
-		return ResponseEntity.status(HttpStatus.CREATED).body(usuarioService.CadastrarUsuario(usuario).get());
+	public ResponseEntity<Object> post(@RequestBody Usuario usuario) {
+		return ResponseEntity.status(HttpStatus.CREATED).body(usuarioService.CadastrarUsuario(usuario));
 	}
 	
 	
